@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "name": "Custom Theme",
+  "description": "A custom chrome/chromium theme",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "background-4K.png"
+    },
+    "colors": {
+      "frame": [37, 28, 45],
+      "frame_inactive": [37, 28, 45],
+
+      "frame_incognito": [37, 28, 45],
+      "frame_incognito_inactive": [37, 28, 45],
+
+      "background_tab": [37, 28, 45],
+      "background_tab_inactive": [63, 64, 76],
+
+      "bookmark_text": [255, 255, 255],
+      "button_background": [37, 28, 45],
+
+      "tab_background_text": [255, 255, 255],
+      "tab_background_inactive": [170, 170, 170],
+      "tab_text": [255, 255, 55],
+
+      "toolbar": [63, 64, 76],
+      "toolbar_button": [170, 170, 170],
+      "toolbar_button_icon": [255, 255, 255],
+
+      "ntp_background": [37, 28, 45],
+      "ntp_header": [170, 170, 170],
+      "ntp_link": [170, 170, 170],
+      "ntp_text": [255, 255, 255]
+    },
+    "tints": {
+      "buttons": [0.61, 0.279, 0.88]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "repeat-x"
+    }
+  },
+  "manifest_version": 2
+}
